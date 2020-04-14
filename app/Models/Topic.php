@@ -39,4 +39,5 @@ class Topic extends Model
     {
         return $query->orderBy('updated_at', 'desc');
     }
+
 }

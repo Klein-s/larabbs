@@ -130,6 +130,8 @@
       <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
       <path value="$PROJECT_DIR$/vendor/summerblue/laravel-active" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/mews/purifier" />
     </include_path>
   </component>
   <component name="ProjectId" id="1aVmuhMdpfXbomdyumpvzWFixVc" />
@@ -174,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586829359058</updated>
-      <workItem from="1586829360463" duration="21983000" />
+      <workItem from="1586829360463" duration="23446000" />
     </task>
     <servers />
   </component>
