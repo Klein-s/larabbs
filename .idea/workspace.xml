@@ -119,6 +119,13 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/caouecs/laravel-lang" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/laravel-lang" />
+      <path value="$PROJECT_DIR$/vendor/mews/captcha" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
   <component name="ProjectId" id="1aVmuhMdpfXbomdyumpvzWFixVc" />
@@ -156,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586829359058</updated>
-      <workItem from="1586829360463" duration="1951000" />
+      <workItem from="1586829360463" duration="7128000" />
     </task>
     <servers />
   </component>
@@ -164,6 +171,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="567" y="220" width="786" height="600" key="find.popup" timestamp="1586833906497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="567" y="220" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586833906497" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586830430993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
