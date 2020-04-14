@@ -14,6 +14,8 @@
 @import '~@fortawesome/fontawesome-free/scss/solid';
 @import '~@fortawesome/fontawesome-free/scss/brands';
 
+@import "topic_body";
+
 body {
   font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
   font-size: 14px;
@@ -114,6 +116,23 @@ body {
 /* Add container and footer space */
 #app > div.container {
   margin-bottom: 100px;
+}
+
+.simditor-body img {
+  max-width:100%;
+}
+
+.topics-show-page {
+
+  .card {
+    padding: 15px;
+
+    h1 {
+      margin: 0.4em auto 0.6em;
+      font-size: 28px;
+      line-height: 38px;
+    }
+  }
 }
 
 
