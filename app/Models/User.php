@@ -34,6 +34,27 @@ class User extends Authenticatable implements MustVerifyEmailContract
         $this->unreadNotifications->markAsRead();
     }
 
+    public function setPasswordAttribute($value)
+    {
+        // 如果值的长度等于 60，即认为是已经做过加密的情况
+        if (strlen($value) != 60) {
+
+            // 不等于 60，做密码加密处理
+            $value = bcrypt($value);
+        }
+
+        $this->attributes['password'] = $value;
+    }
+
+    public function setAvatarAttribute($path){
+
+        if (!\Str::startsWith($path,'http')){
+
+            //拼接完整的url
+            $path=config('app.url')."/uploads/images/avatars/$path";
+        }
+        $this->attributes['avatar']=$path;
+    }
     /**
      * The attributes that are mass assignable.
      *
