@@ -17,6 +17,7 @@ return array(
     // 配置信息文件存放目录
     'settings_config_path' => config_path('administrator/settings'),
 
+
     /*
      * 后台菜单数组，多维数组渲染结果为多级嵌套菜单。
      *
@@ -63,6 +64,8 @@ return array(
         return Auth::check() && Auth::user()->can('manage_contents');
     },
 
+
+
     /*
      * 使用布尔值来设定是否使用后台主页面。
      *
@@ -75,19 +78,19 @@ return array(
     'dashboard_view' => '',
 
     // 用来作为后台主页的菜单条目，由 `use_dashboard` 选项决定，菜单指的是 `menu` 选项
-    'home_page' => 'users',
+    'home_page' => 'topics',
 
     // 右上角『返回主站』按钮的链接
     'back_to_site_path' => '/',
 
     // 当选项 `permission` 权限检测不通过时，会重定向用户到此处设置的路径
-    'login_path' => 'login',
+    'login_path' => 'permission-denied',
 
     // 允许在登录成功后使用 Session::get('redirect') 将用户重定向到原本想要访问的后台页面
     'login_redirect_key' => 'redirect',
 
     // 控制模型数据列表页默认的显示条目
-    'global_rows_per_page' => 20,
+    'global_rows_per_page' => 10,
 
     // 可选的语言，如果不为空，将会在页面顶部显示『选择语言』按钮
     'locales' => [],
