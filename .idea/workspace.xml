@@ -139,6 +139,7 @@
       <path value="$PROJECT_DIR$/vendor/cakephp/chronos" />
       <path value="$PROJECT_DIR$/vendor/laravel/horizon" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/vendor/viacreative/sudo-su" />
     </include_path>
   </component>
   <component name="ProjectId" id="1aVmuhMdpfXbomdyumpvzWFixVc" />
@@ -183,7 +184,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586829359058</updated>
-      <workItem from="1586829360463" duration="42523000" />
+      <workItem from="1586829360463" duration="43906000" />
     </task>
     <servers />
   </component>

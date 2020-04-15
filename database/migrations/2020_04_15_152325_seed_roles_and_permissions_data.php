@@ -32,7 +32,7 @@ class SeedRolesAndPermissionsData extends Migration
 
         //创建管理员权限,
         $maintainer=Role::create(['name'=>'Maintainer']);
-        $founder->givePermissionTo(['name'=>'manage_contents']);
+        $maintainer->givePermissionTo(['name'=>'manage_contents']);
     }
 
     /**
