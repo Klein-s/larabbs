@@ -186,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586829359058</updated>
-      <workItem from="1586829360463" duration="45987000" />
+      <workItem from="1586829360463" duration="49413000" />
     </task>
     <servers />
   </component>
@@ -206,10 +206,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="567" y="220" width="786" height="600" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586915842031" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586844538094">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586941980720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586844538094" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586941980720" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
