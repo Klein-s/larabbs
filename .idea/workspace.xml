@@ -7,7 +7,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -154,7 +154,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/uploads/images/topics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Models/Traits" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -165,6 +165,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wwwroot\larabbs\app\Models\Traits" />
       <recent name="D:\wwwroot\larabbs\public\uploads\images\topics" />
       <recent name="D:\wwwroot\larabbs\resources\editor\js" />
       <recent name="D:\wwwroot\larabbs\resources\editor\css" />
@@ -186,7 +187,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586829359058</updated>
-      <workItem from="1586829360463" duration="50514000" />
+      <workItem from="1586829360463" duration="51192000" />
+      <workItem from="1586999222480" duration="1511000" />
+      <workItem from="1587001215766" duration="3376000" />
     </task>
     <servers />
   </component>
@@ -198,10 +201,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586914465600" />
-    <state x="760" y="333" key="NewPhpClassDialog" timestamp="1586919797546">
+    <state x="760" y="333" key="NewPhpClassDialog" timestamp="1586999753601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="760" y="333" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586919797546" />
+    <state x="760" y="333" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586999753601" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587001218906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587001218906" />
     <state x="567" y="220" width="786" height="600" key="find.popup" timestamp="1586915842031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
