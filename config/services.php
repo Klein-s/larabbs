@@ -33,5 +33,10 @@ return [
         'appid' => env('20200415000420715'),
         'key'   => env('ZI7JkJU7d_3AHXPtP8ib'),
     ],
+    'weixin' => [
+        'client_id' => env('WEIXIN_KEY'),
+        'client_secret' => env('WEIXIN_SECRET'),
+        'redirect' => env('WEIXIN_REDIRECT_URI'),
+    ],
 
 ];

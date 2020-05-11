@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+use Illuminate\Http\Resources\Json\Resource;
 use Illuminate\Support\Facades\Gate;
 
 class AuthServiceProvider extends ServiceProvider
@@ -31,5 +32,7 @@ class AuthServiceProvider extends ServiceProvider
             return 'App\Policies\\'.class_basename($modelClass).'Policy';
         });
         //
+
+        Resource::withoutWrapping();
     }
 }

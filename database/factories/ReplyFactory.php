@@ -6,7 +6,7 @@ $factory->define(App\Models\Reply::class, function (Faker $faker) {
 
     // 随机取一个月以内的时间
     $time = $faker->dateTimeThisMonth();
-
+//    dd($time);
     return [
         'content' => $faker->sentence(),
         'created_at' => $time,

@@ -22,7 +22,7 @@ class TopicsTableSeeder extends Seeder
                             $topic->user_id=$faker->randomElement($user_ids);
                             $topic->category_id=$faker->randomElement($category_ids);
         });
-
+        dd($topics->toArray());
         Topic::insert($topics->toArray());
     }
 
